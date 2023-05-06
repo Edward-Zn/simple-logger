@@ -11,4 +11,4 @@ This should adding new LogTarget types become more easy without modifying the ex
 Another way is inject the LogTarget objects into the Logger constructor instead of creating them inside the class.
 Then replace the LogTarget objects with different implementations or mock objects for testing
 
-The use of configuration files could be extended to support environment variables to provide the needed Logger settings instead of hardcoding them in the code
+The use of configuration file could be extended to support environment variables to provide the needed Logger settings instead of hardcoding them in the code
